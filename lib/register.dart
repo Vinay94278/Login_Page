@@ -52,7 +52,8 @@ class _registerState extends State<register> {
                     TextField(
                       cursorColor: Color(0xff858585),
                       decoration: InputDecoration(
-                          prefixIcon: Icon(Icons.person),
+                          prefixIcon:
+                              Icon(Icons.person, color: Color(0xff858585)),
                           fillColor: Color(0xffE1E1E1),
                           filled: true,
                           hintText: "Username",
@@ -84,12 +85,6 @@ class _registerState extends State<register> {
                             Icons.lock,
                             color: Color(0xff858585),
                           ),
-                          suffixIcon: IconButton(
-                              onPressed: () {},
-                              icon: Icon(
-                                Icons.remove_red_eye,
-                                color: Color(0xff858585),
-                              )),
                           fillColor: Color(0xffE1E1E1),
                           filled: true,
                           hintText: "Password",
